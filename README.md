@@ -1,4 +1,4 @@
-# l2d
+# ElectronPet
 
 #### 介绍
 基于electron-react-boilerplate并使用 electrronBot 素材制作的简易桌宠
