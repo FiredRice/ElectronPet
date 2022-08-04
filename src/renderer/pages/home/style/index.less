@@ -1,0 +1,39 @@
+.circle-radius {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    pointer-events: none;
+
+    .circle-radius-background {
+        width: 85%;
+        height: 85%;
+        transition: all 800ms;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        pointer-events: none;
+
+        .circle-radius-position {
+            pointer-events: none;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            border-radius: 50%;
+            overflow: hidden;
+
+            .circle-radius-video {
+                -webkit-app-region: drag;
+                width: 100%;
+                height: 100%;
+                background-color: #000000;
+                pointer-events: auto;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+}
